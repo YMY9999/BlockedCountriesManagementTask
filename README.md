@@ -29,7 +29,6 @@ A .NET 8 Web API for managing blocked countries and validating IP addresses usin
 Update the `appsettings.json` file with your geolocation API details:
 
 ### 3. Restore Dependencies
-Run the following command to restore NuGet packages:
 
 ### 4. Build and Run the Application
 
@@ -72,14 +71,6 @@ The API will be available at `https://localhost:5001` (or `http://localhost:5000
 - **HttpClient**: For making HTTP requests to the geolocation API.
 - **In-Memory Storage**: `ConcurrentDictionary` for thread-safe data storage.
 - **Swagger**: API documentation and testing.
-
----
-
-## Future Enhancements
-
-- Add support for rate limiting.
-- Implement caching for geolocation responses.
-- Add unit tests for controllers and services.
 
 ---
 
