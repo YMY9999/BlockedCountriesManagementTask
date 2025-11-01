@@ -17,7 +17,7 @@ A .NET 8 Web API for managing blocked countries and validating IP addresses usin
 ## Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- A free API key from a geolocation service (e.g., [ipapi.co](https://ipapi.co/) or [IPGeolocation.io](https://ipgeolocation.io/)).
+- A free API key from a geolocation service (e.g.,[IPGeolocation.io](https://ipgeolocation.io/)).
 
 ---
 
@@ -71,12 +71,6 @@ The API will be available at `https://localhost:5001` (or `http://localhost:5000
 - **HttpClient**: For making HTTP requests to the geolocation API.
 - **In-Memory Storage**: `ConcurrentDictionary` for thread-safe data storage.
 - **Swagger**: API documentation and testing.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
